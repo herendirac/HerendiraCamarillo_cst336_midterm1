@@ -18,24 +18,23 @@
 		<!-- creating paragraph -->
 		<p>Please enter the ISBN of the book you'd like to retrieve</p>
 		<!-- Creating form -->
-		<form>
+		
 		    <!-- Creating the size for the layout of display -->
 		<label class="col-sm-2"> ISBN: </label>
 		<br>
-		<input class="col-sm-4" type="text" id="ISBNinfo">
+		<input class="col-sm-4" type="text" id="callNum">
 		<br>
 		<button class="col-sm-6"> Query </button>
-		</form>
 		
 	</div>
-	<br>
-		<div id="ShowingCover" class="col-sm-3"></div>
-		<!-- Making it display the rows  -->
-		<div id="bookDisplay" class="info col-sm-4 text-left">
-        <div id="Title" id="Author" id="Publish_Year" id="Publisher" id="ISBN" id="Pages"></div>
+			   </br> 
+			   <div id="DisplayCover">
+			<strong><div id="Title"></div><div id="Author"></div><div id="Publisher"></div><div id="PagesNums"></div><div id="ISBN"></div><div id="PublishedNum"></div></strong>
 		</div>
-
-	</div>
 	<script src="functions.js"></script>
+
 </body>
+
+
+
 </html>
